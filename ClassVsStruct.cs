@@ -42,6 +42,7 @@ CustomerStruct CustId after change 123
 
 ------------------->
 Here we can clearly see that CustId property value from CustomerClass is changed to 0 but for struct it is the same.
-This clearly proves that the Class is a reference type where the original object was instead of the copy and struct is a value type.
+This clearly proves that the Class is a reference type where the original object was passed to the ChangeCustomerClass method instead of its copy.
+Struct, being a value type has no impact on the CustId property value even after calling the ChangeCustomerStruct method.
 */
 
